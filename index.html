@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document6</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+     <form>
+         <div class="wrapper">
+        <div class="header">
+            <span class="manager">Contact Manager</span>
+            <ul class="menu2">
+                <li class="menu2_sub_menu"><a href="#" class="e1">More Actions&#160▼</a>
+                    <ul class="sub_menu">
+                    <li><a href="#">Print</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </div>
+        <div class="main">
+            <div class="left">
+                <label class="label1">
+                    <span class="nec">First name</span>
+                    <input type="text" name="first_name" title="First Name" placeholder="First Name" required />
+                </label>
+                <br>
+                <label class="label1">
+                    <span class="nec">Last name</span>
+                    <input type="text" name="last_name" title="First Name" placeholder="Last Name" required />
+                </label>
+                <br>
+                <label class="label1">
+                    <span>Address</span>
+                    <input type="text" name="address" title="Address" placeholder="Address" class="address"/>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>City</span>
+                    <input type="text" name="city" title="City" placeholder="City"/>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>State</span>
+                    <select name="select" class="select">
+                        <option value="state1">State1</option>
+                        <option value="state2">State2</option>
+                        <option value="state3" selected="selected">-Select-</option>
+                    </select>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>Zip</span>
+                    <input type="text" name="zip" title="Zip" placeholder="zip"/>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>Home phone</span>
+                    <input type="tel" name="home" title="Home" placeholder="Home phone" class="home"/>
+                </label>
+                <br>
+                <label class="label1">
+                    <span class="nec">Work phone</span>
+                    <input type="tel" name="work" title="Home" placeholder="Work phone" required/>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>Fax number</span>
+                    <input type="tel" name="fax" title="Home" placeholder="Fax number"class="home"/>
+                </label>
+                <br>
+                    
+                   <label class="label1">   
+                   <span class="w">Website</span>
+                    <label>
+                            <label>
+                                <span>URL</span>
+                                <input type="text" name="url" title="url" placeholder="URL" class="url"/>
+                            </label>
+                            <br>
+                            <label>
+                                <span>Link name</span>
+                                <input type="text" name="link" title="link" placeholder="Link" class="url1"/>
+                            </label>
+                        </label>
+                    </label>  
+                <br>
+                <label class="label1">
+                    <span class="nec">Email address</span>
+                    <input type="email" name="email" title="Email" placeholder="Email" required/>
+                </label>
+                
+            </div>
+            <div class="right">
+                <label class="label1">
+                    <span >When is the best time to contact you?</span>
+                    <label class="w1">
+                        <input type="radio" name="name" value="morning" />    
+                        <span>Morning</span>
+                        <br>
+                        <input type="radio" name="name" value="afternoon" />    
+                        <span>Afternoon</span>
+                        <br>
+                        <input type="radio" name="name" value="evening" />    
+                        <span>Evening</span>
+                    </label>
+                </label>
+                <br>
+                <label class="label1">
+                    <span >What is the best way to contact you?</span>
+                    <label class="w2">
+                        <input type="radio" name="name" value="phone" />    
+                        <span>Phone</span>
+                        <br>
+                        <input type="radio" name="name" value="email" />    
+                        <span>Email</span>
+                        <br>
+                        <input type="radio" name="name" value="Fax" />    
+                        <span>Fax</span>
+                        <br>       
+                    </label>
+                </label>
+                <br>
+                <label class="label1">
+                    <span>Message</span>
+                    <input type="text" name="message" title="message" placeholder="Message" class="m"/>
+                </label> 
+            </div>
+        </div>
+        <div class="footer"> 
+            <input type="submit" name="submit" value="Submit" class="green" />
+            <input type="reset" name="reset" value="Reset" class="green" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

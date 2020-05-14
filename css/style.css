@@ -1,0 +1,104 @@
+form{
+    border:1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 5px 10px;
+}
+.wrapper{
+    border:1px solid green;
+    margin: 0px auto;
+}
+.main{
+    margin: 0px auto;
+    display:flex;
+    padding: 5px;
+    justify-content: space-between; 
+}
+.right{
+    width: 500px; 
+}
+.header{
+    height: 45px;
+    background-color: green;
+    margin: 0px auto;
+    display: flex;
+    
+    align-items: center;
+}
+.menu2{
+    margin: 0px;
+    display:flex;
+    list-style-type: none;
+}
+ul{
+    padding: 0px;
+}
+.menu2 li a{
+    padding-left: 30px;
+    color:black;
+    font-family: Lato;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+.menu2_sub_menu:hover .sub_menu{
+    display:block; 
+}
+.sub_menu{
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+.footer{
+    height: 30px;
+    background-color: grey;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: green;
+    color:white;
+}
+.label1{
+    display: flex;
+    justify-content: space-between;
+}
+.address,.m{
+    height:80px;
+}
+.select{
+    width:173px;
+    
+}
+.home{
+    width:90px;
+    margin-right: 80px;
+}
+.url{
+   width:100px;
+   margin: 0px 0px 3px 37px;
+}
+.url1{
+    width:100px;  
+ }
+.w{
+    margin-right: 130px;
+}
+.w1{
+    margin-right: 85px;  
+}
+.w2{
+    margin-right: 110px;
+}
+
+.manager{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.nec:after{
+    content: "*";
+    color:red;
+}
