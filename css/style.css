@@ -102,3 +102,8 @@ ul{
     content: "*";
     color:red;
 }
+span{
+    font-weight: bold;
+}.u{
+    font-weight: normal;
+}
