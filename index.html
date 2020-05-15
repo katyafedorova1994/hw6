@@ -12,14 +12,23 @@
      <form>
          <div class="wrapper">
         <div class="header">
+            
             <span class="manager">Contact Manager</span>
-            <ul class="menu2">
+           
+                <select name="select" class="selectm">
+                    <option value="option1" class="selectmm">Print</option>
+                    <option value="option2" class="selectmm">Save</option>
+                    <option value="option3" class="selectmm">Translate</option>
+                </select>
+            <!--<ul class="menu2">
                 <li class="menu2_sub_menu"><a href="#" class="e1">More Actions&#160▼</a>
                     <ul class="sub_menu">
                     <li><a href="#">Print</a></li>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Translate</a></li>
                     </ul>
                 </li>
-            </ul> 
+            </ul> -->
         </div>
         <div class="main">
             <div class="left">
@@ -112,13 +121,13 @@
                 <label class="label1">
                     <span >What is the best way to contact you?</span>
                     <label class="w2">
-                        <input type="radio" name="name" value="phone" />    
+                        <input type="checkbox" name="name0" value="phone" />    
                         <span class="u">Phone</span>
                         <br>
-                        <input type="radio" name="name" value="email" />    
+                        <input type="checkbox" name="name1" value="email" />    
                         <span class="u">Email</span>
                         <br>
-                        <input type="radio" name="name" value="Fax" />    
+                        <input type="checkbox" name="name2" value="Fax" />    
                         <span class="u">Fax</span>
                         <br>       
                     </label>

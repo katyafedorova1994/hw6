@@ -22,19 +22,20 @@ form{
     background-color: green;
     margin: 0px auto;
     display: flex;
-    
     align-items: center;
 }
+/*
 .menu2{
-    margin: 0px;
     display:flex;
     list-style-type: none;
+    margin-left: 30px;
+    line-height: 45px;
 }
 ul{
     padding: 0px;
 }
 .menu2 li a{
-    padding-left: 30px;
+    padding: 0px 0px 0px 10px;
     color:black;
     font-family: Lato;
     font-size: 14px;
@@ -43,12 +44,23 @@ ul{
 }
 .menu2_sub_menu:hover .sub_menu{
     display:block; 
+   
+}
+.e1:hover{
+    color:white;
 }
 .sub_menu{
     position: absolute;
     list-style-type: none;
     display: none;
+    width: 104px;
 }
+.sub_menu li a{
+    color:white;
+    background-color: green;
+    padding: 0px 0px 0px 10px;
+}
+*/
 .footer{
     height: 30px;
     background-color: grey;
@@ -106,4 +118,12 @@ span{
     font-weight: bold;
 }.u{
     font-weight: normal;
+}
+.selectm{
+    margin-left: 40px;
+    background-color: green;
+}
+.selectm:hover .selectmm{
+    background-color: grey;
+    
 }
